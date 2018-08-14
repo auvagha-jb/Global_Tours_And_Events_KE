@@ -1,0 +1,47 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 65%;
+    color: white;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    color: #F1C40F;
+    text-align: center;
+    text-decoration: underline;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+
+tr:nth-child(odd){
+    background-color: #282828;
+}
+
+tr:nth-child(even){
+    background-color: #6e6e6e;
+}
+
+
+/*Ensures the title is not selected*/
+thead tr:hover{
+   color: white;
+   background: #282828;
+}
+
+tr:hover{
+    background: whitesmoke;
+    color: black;
+}
+
+tr:nth-child(even):hover{
+    background: whitesmoke;
+    color: black;
+}

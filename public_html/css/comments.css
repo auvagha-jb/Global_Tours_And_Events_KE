@@ -1,0 +1,42 @@
+body{
+    background: whitesmoke;
+}
+
+textarea{
+   width: 50%;
+   height: 100px;
+   font-family: sans-serif;
+   margin-top: 1%;
+   margin-left: 10%;
+}
+
+button{
+    margin: 1% 10%;
+    background: #009933;
+    color: #fff;
+    cursor: pointer;
+    width: 10%;
+    padding: 0.1%;
+    
+}
+
+button:hover{
+    opacity: .7;
+}
+
+.comment-box{
+    width: 80%;
+    background: white;
+    margin-left: 10%;
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
+
+.comment-box p{
+    padding: 1% 0%;
+}
+
+.name{
+    background: black;
+    color: white;
+}

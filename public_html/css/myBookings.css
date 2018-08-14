@@ -1,0 +1,53 @@
+body{
+    background-color: whitesmoke;
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 65%;
+    color: black;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    color: #009933;
+    text-align: center;
+    text-decoration: underline;
+    padding: 1% 0%;
+}
+
+thead tr{
+    color: white;
+    background: #009933;
+}
+
+td ,th{
+    border: 1px solid #009933;
+    text-align: left;
+    padding: 8px;
+}
+
+/*For the title row....*/
+thead tr:hover{
+   color: white;
+   background: #009933;
+}
+
+
+tr:nth-child(even){
+    background-color: #dddddd;
+}
+
+tr:hover{
+    background: #898989;
+    color: white;
+}
+
+tr:nth-child(even):hover{
+    background: #898989;
+    color: white;
+}

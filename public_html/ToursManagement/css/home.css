@@ -1,0 +1,509 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #009933;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #000000;
+    color: white;
+}
+
+/* Search container */
+.topnav .search-container button:hover {
+    background: #cccccc;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav .search-container {
+        float: none;
+    }
+
+    .topnav a, .topnav input[type=text], .topnav .search-container button {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+
+    .topnav input[type=text] {
+        border: 1px solid #cccccc;
+    }
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover {
+    background-color: black;
+}
+
+.search-container {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+/* Columns */
+* {
+    box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    margin-left: 30px;
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: 540px;
+    background-color:white;
+}
+
+.column button {
+    width: 96%;
+    height: 25px;
+    background-color: #009933;
+    margin-top: 10px;
+}
+
+.row #row-rift-valley button {
+    margin-top: 4px;
+}
+
+.row {
+    background-color: whitesmoke;
+}
+
+.row p {
+    font-size: 12px;
+}
+
+.row h2 {
+    margin-left: 10px;
+}
+
+.column span {
+    color: #009933;
+    font-size: 20px;
+}
+
+#row {
+    margin-left: 50px;
+    margin-right: 30px;
+    width: 90%;
+    height: 620px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+/* Columns */
+* {
+    box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+.column2 {
+    margin-left: 30px;
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: 450px;
+    background-color:white;
+}
+
+/* Clear floats after the columns */
+.row2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row2 h2 {
+    margin-left: 10px;
+}
+
+.row2 {
+    background-color: whitesmoke;
+}
+
+.row2 p {
+    font-size: 12px;
+}
+
+.row2 hr {
+    margin-top: 30px;
+}
+
+.row2 {
+    margin-left: 50px;
+    margin-right: 30px;
+    width: 90%;
+    height: 550px;
+}
+
+.row2 #row2-ngare-ndare button {
+    margin-top: 18px;
+}
+
+.row2 #row2-ngare-ndare hr {
+    margin-top: 20px;
+}
+
+.column2 span {
+    color: #009933;
+    font-size: 18px;
+}
+
+.column2 button {
+    width: 96%;
+    height: 30px;
+    background-color: #009933;
+    margin-top: 20px;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column2 {
+        width: 100%;
+    }
+}
+
+/* Columns */
+* {
+    box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+.column3 {
+    margin-left: 30px;
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: 500px;
+    background-color:white;
+}
+
+/* Clear floats after the columns */
+.row3:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row3 h2 {
+    margin-left: 10px;
+}
+
+.row3 {
+    background-color: whitesmoke;
+}
+
+.row3 p {
+    font-size: 12px;
+}
+
+.row3 hr {
+    margin-top: 20px;
+}
+
+.row3 {
+    margin-left: 50px;
+    margin-right: 30px;
+    width: 90%;
+    height: 630px;
+}
+
+.column3 span {
+    color: #009933;
+    font-size: 18px;
+}
+
+#row3-zanzibar hr {
+    margin-top: 60px;
+}
+
+#row3-zanzibar button {
+    margin-top: 4px;
+}
+
+#row3-honeymoon hr {
+    margin-top: 40px;
+}
+
+.column3 button {
+    width: 96%;
+    height: 30px;
+    background-color: #009933;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column3 {
+        width: 100%;
+    }
+}
+
+/* Image slideshow */
+* {
+    box-sizing:border-box
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 98%;
+    max-height: 60%;
+    position: relative;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #f2f2f2;
+}
+
+/*!* Hide the images by default *!*/
+/*.mySlides {*/
+    /*display: none;*/
+/*}*/
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    /*transition: 0.6s ease;*/
+    border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+.search-text{
+    padding-bottom:60px;
+}
+
+.search-text .input-search{
+    height:45px;
+    width:40%;
+    padding-left:20px;
+    color:#333;
+}
+
+.search-text .btn-search{
+    background: #545454;
+    font-family:Roboto;
+    border:none;
+    color:#FFF;
+    height: 45px;
+    width: 80px;
+}
+
+.search-text h4{
+    color:#888582;
+    font-weight: 700;
+}
+
+.footer {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+footer{
+    background-color:#222222;
+    padding: 60px 0px;
+}
+
+footer ul{
+    list-style:none;
+    margin:0 auto;
+    display:inline-block;
+    padding-top:50px;
+}
+
+footer ul li{
+    float:left;
+}
+
+footer ul li a{
+    color:#b1aca1;
+    padding:20px;
+}
+
+footer ul li a:hover{
+    color:#7dabdb;
+    text-decoration:none;
+}
+
+.footer-top{
+    padding-bottom:50px;
+}
+
+.footer-top .fa{
+    font-size:18px;
+    color: #FFF;
+    padding-right:10px;
+}
+
+.footer-top a{
+    color:#FFF;
+    background:#333333;
+    padding: 10px;
+}
+
+.footer-top .col-lg-2:hover .fa , .footer-top .col-lg-2:hover a{
+    color:#7dabdb;
+    text-decoration:none;
+}
+
+.copyright{
+    background-color:#f0f0f0;
+}
+
+.copyright p{
+    font-size:12px;
+    padding:15px 0 10px 0;
+}
+
+#top{
+    color: #fff;
+    background: #7dabdb;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+    right: 30px;
+    position: fixed;
+    border-radius: 3px;
+    text-align: center;
+    bottom: 350px;
+}
+
+.footer-top2 a{
+    display: block;
+    color: #FFF;
+    background: #333333;
+    border-radius: 72px;
+    height: 100px;
+    width: 100px;
+    padding: 43px 0px;
+}
+
+
+.footer-top2{
+    padding-bottom:50px;
+}
+
+.footer-top2 .fa{
+    font-size:18px;
+    color: #FFF;
+    padding-right:10px;
+}
+
+.footer-top a{
+    color:#FFF;
+    background:#333333;
+    padding: 10px;
+}
+
+.footer-top2 .col-lg-2:hover a{
+    color:#FFF;
+    text-decoration:none;
+    background:#7dabdb;
+    transition: all 2s ease-in-out;
+}
+
+
