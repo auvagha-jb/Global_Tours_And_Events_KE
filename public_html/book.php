@@ -106,7 +106,7 @@
     </form>
 </div>-->
 
-    
+  
 <div class="title">
     <h3 id="page-title">Tour Booking</h3>
 </div>
